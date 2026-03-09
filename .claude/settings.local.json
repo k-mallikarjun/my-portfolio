@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk { print length, NR }:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
