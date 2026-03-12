@@ -72,7 +72,7 @@ function Tag({ label, color = "#00ff41" }) {
 }
 
 export default function Portfolio() {
-  const [activeSection, setActiveSection] = useState("hero");
+  const [activeSection] = useState("hero");
   const [glitch, setGlitch] = useState(false);
 
   useEffect(() => {
